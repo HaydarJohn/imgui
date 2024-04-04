@@ -2,6 +2,8 @@
 
 class TufanGUI
 {
+private:
+    bool m_status;
 public:
     void init();
     virtual void update();
